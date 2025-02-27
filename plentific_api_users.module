@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains plentif_welcome.module.
+ * Contains plentific_api_users.module.
  */
 
 use Drupal\Core\Block\BlockBase;
