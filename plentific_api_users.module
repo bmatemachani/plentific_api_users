@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Contains plentif_welcome.module.
+ */
+
+use Drupal\Core\Block\BlockBase;
+
+/**
+ * Implements hook_help().
+ */
+function plentific_api_users_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.plentific_api_users':
+      return '<p>' . t('This module provides a custom block to display a welcome message.') . '</p>';
+  }
+}

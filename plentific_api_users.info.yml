@@ -1,0 +1,9 @@
+name: 'Plentific API Users'
+type: module
+description: 'Custom block listing users from API'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+ - drupal:block
+ - drupal:core
+

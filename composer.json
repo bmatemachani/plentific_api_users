@@ -1,0 +1,15 @@
+{
+    "name": "drupal/plentific_api_users",
+    "description": "A custom Drupal module that creates a block listing users from API.",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Brian Matemacahani",
+            "email": "matema002@gmail.com"
+        }
+    ],
+    "require": {
+        "drupal/core": "^9 || ^10"
+    }
+}
